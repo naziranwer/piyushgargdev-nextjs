@@ -158,7 +158,7 @@ export async function getStaticProps(context) {
         })),
         courses,
       }, // will be passed to the page component as props
-      revalidate: 45200, // 12 Hrs
+      revalidate: 48200, // 12 Hrs
     };
   } catch (error) {}
 }
